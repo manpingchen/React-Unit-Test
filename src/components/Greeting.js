@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Output from "./Output";
 
 const Greeting = () => {
   const [greetingText, setGreetingText] = useState("Nice to meet you!");
@@ -8,7 +9,7 @@ const Greeting = () => {
   return (
     <div>
       <h2>Hello World</h2>
-      <p>{greetingText}</p>
+      <Output>{greetingText}</Output>
       <button onClick={sayHiHandler}>Say Hi!</button>
     </div>
   );
