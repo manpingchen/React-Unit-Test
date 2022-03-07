@@ -1,5 +1,5 @@
 # React-Unit-Test
-Using React built in test library to run unit test
+Using React built in test library to run unit/integration test
 
 ## Features
 ### Group testing
